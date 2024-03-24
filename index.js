@@ -34,10 +34,10 @@ isPalindrome('test')
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
-  console.log("=>", isPalindrome("racecar"));
+  console.log("=>", isPalindrome("madam"));
 
   console.log("Expecting: false");
-  console.log("=>", isPalindrome("robot"));
+  console.log("=>", isPalindrome("palindrome"));
 }
 
 module.exports = isPalindrome;
